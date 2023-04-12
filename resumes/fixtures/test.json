@@ -1,0 +1,104 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$XPOSU8FDVfn1lybGxjZvmn$Hd9NosYcVdUoh7PEiE5KWnOhHQ3xYTw3HC+/HuLc494=",
+        "last_login": "2023-04-12T18:21:31.963Z",
+        "is_superuser": true,
+        "username": "yauheni",
+        "first_name": "",
+        "last_name": "",
+        "email": "17m2000y@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-04-12T17:28:35.823Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$J5AvM3HCVsJpItboBUDcDn$p9+PIz9xHbw6WbBFInNE3UM7Tr3ZFt6FkpTv2rxl6+Q=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "testuser",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-04-12T18:24:45.365Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$6mqZG1utr4gBMlsHo5p668$lfgUDtLlm9WK5BndaYpZVdKxEP8591YUz5LH64fXBdQ=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "user2",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-04-12T18:24:58.089Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "resumes.specialty",
+    "pk": 1,
+    "fields": {
+        "title": "Backend"
+    }
+},
+{
+    "model": "resumes.specialty",
+    "pk": 2,
+    "fields": {
+        "title": "Frontend"
+    }
+},
+{
+    "model": "resumes.resume",
+    "pk": 1,
+    "fields": {
+        "status": "applying",
+        "grade": 5,
+        "specialty": 1,
+        "salary": 1000,
+        "education": "BSUIR",
+        "experience": 2,
+        "portfolio": "https://docs.google.com/document/d/1gK3OSRp-8C-Y5AZwDRmI2XojkPosdwZLQDrrcqi0F1s/edit",
+        "title": "title1",
+        "phone": "+375291896089",
+        "email": "17m2000y@gmail.com",
+        "author": 1
+    }
+},
+{
+    "model": "resumes.resume",
+    "pk": 2,
+    "fields": {
+        "status": "freezed",
+        "grade": 9,
+        "specialty": 2,
+        "salary": 1500,
+        "education": "BNTU",
+        "experience": 4,
+        "portfolio": "https://docs.google.com/document/d/1gK3OSRp-8C-Y5AZwDRmI2XojkPosdwZLQDrrcqi0F1s/edit",
+        "title": "title2",
+        "phone": "+375291896089",
+        "email": "17m2000y@gmail.com",
+        "author": 3
+    }
+}
+]
